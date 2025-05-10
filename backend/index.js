@@ -30,7 +30,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "http://localhost:5173", // Make sure this matches your frontend
+    origin: "https://linkedin1-frontend.onrender.com", // Make sure this matches your frontend
     credentials: true,
   })
 );
