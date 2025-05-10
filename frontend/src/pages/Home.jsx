@@ -42,7 +42,7 @@ console.log(result)
 setPosting(false)
 setUploadPost(false)
   } catch (error) {
-    setPostng(false)
+    setPosting(false)
     console.log(error);
     
   }
