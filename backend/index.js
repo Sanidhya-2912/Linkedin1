@@ -20,7 +20,7 @@ const server = http.createServer(app);
 
 export const io = new Server(server, {
   cors: {
-    origin: "http://localhost:5173", // frontend port
+    origin: "https://linkedin1-frontend.onrender.com", // frontend port
     credentials: true,
   },
 });
